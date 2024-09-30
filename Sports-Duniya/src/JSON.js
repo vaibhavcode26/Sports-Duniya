@@ -26,7 +26,7 @@ const dummyColleges = [
       fees: 2450000,
       placement: 3592000,
       userReviews: 9.1,
-      ranking: 99,
+      ranking: 5,
       featured: true,
     },
     {
@@ -46,7 +46,7 @@ const dummyColleges = [
       fees: 209550,
       placement: 2184000,
       userReviews: 8.6,
-      ranking: 3,
+      ranking: 4,
       featured: false,
     },
     {
@@ -66,7 +66,7 @@ const dummyColleges = [
       fees: 100000,
       placement: 3410000,
       userReviews: 8.1,
-      ranking: 99,
+      ranking: 26,
       featured: true,
     },
     {
@@ -76,7 +76,7 @@ const dummyColleges = [
       fees: 2250000,
       placement: 3300000,
       userReviews: 8.8,
-      ranking: 2,
+      ranking: 25,
       featured: false,
     },
     {
@@ -86,7 +86,7 @@ const dummyColleges = [
       fees: 27650,
       placement: 26000000,
       userReviews: 8.6,
-      ranking: 3,
+      ranking: 6,
       featured: false,
     },
     {
@@ -96,7 +96,7 @@ const dummyColleges = [
       fees: 1430000,
       placement: 3000000,
       userReviews: 8.7,
-      ranking: 1,
+      ranking: 27,
       featured: false,
     },
     {
@@ -106,7 +106,7 @@ const dummyColleges = [
       fees: 220970,
       placement: 19000000,
       userReviews: 8.1,
-      ranking: 99,
+      ranking: 29,
       featured: true,
     },
     {
@@ -116,7 +116,7 @@ const dummyColleges = [
       fees: 229300,
       placement: 2182000,
       userReviews: 8.8,
-      ranking: 2,
+      ranking: 7,
       featured: false,
     },
     {
@@ -126,7 +126,7 @@ const dummyColleges = [
       fees: 1470000,
       placement: 2923000,
       userReviews: 4.3,
-      ranking: 3,
+      ranking: 24,
       featured: false,
     },
     {
@@ -136,7 +136,7 @@ const dummyColleges = [
       fees: 230100,
       placement: 1834000,
       userReviews: 5.3,
-      ranking: 1,
+      ranking: 28,
       featured: false,
     },
     {
@@ -146,7 +146,7 @@ const dummyColleges = [
       fees: 350000,
       placement: 2802000,
       userReviews: 4.1,
-      ranking: 99,
+      ranking: 23,
       featured: true,
     },
     {
@@ -156,7 +156,7 @@ const dummyColleges = [
       fees: 3377314,
       placement: 2910000,
       userReviews: 6.8,
-      ranking: 2,
+      ranking: 8,
       featured: false,
     },
     {
@@ -166,7 +166,7 @@ const dummyColleges = [
       fees: 603775,
       placement: 3037000,
       userReviews: 6.6,
-      ranking: 3,
+      ranking: 30,
       featured: false,
     },
     {
@@ -186,7 +186,7 @@ const dummyColleges = [
       fees: 98250,
       placement: 24000000,
       userReviews: 9.1,
-      ranking: 99,
+      ranking: 22,
       featured: true,
     },
     {
@@ -206,7 +206,7 @@ const dummyColleges = [
       fees: 1032000,
       placement: 5400000,
       userReviews: 6.6,
-      ranking: 3,
+      ranking: 10,
       featured: false,
     },
     {
@@ -216,7 +216,7 @@ const dummyColleges = [
       fees: 388500,
       placement: 2722000,
       userReviews: 5.7,
-      ranking: 1,
+      ranking: 21,
       featured: false,
     },
     {
@@ -226,7 +226,7 @@ const dummyColleges = [
       fees: 15650,
       placement: 2737272,
       userReviews: 2.1,
-      ranking: 99,
+      ranking: 31,
       featured: true,
     },
     {
@@ -236,7 +236,7 @@ const dummyColleges = [
       fees: 717650,
       placement: 2801000,
       userReviews: 4.8,
-      ranking: 2,
+      ranking: 11,
       featured: false,
     },
     {
@@ -246,7 +246,7 @@ const dummyColleges = [
       fees: 41650,
       placement: 2582000,
       userReviews: 6.3,
-      ranking: 3,
+      ranking: 20,
       featured: false,
     },
     {
@@ -256,7 +256,7 @@ const dummyColleges = [
       fees: 356500,
       placement: 2816000,
       userReviews: 8.7,
-      ranking: 1,
+      ranking: 12,
       featured: false,
     },
     {
@@ -266,7 +266,7 @@ const dummyColleges = [
       fees: 2450000,
       placement: 3592000,
       userReviews: 8.1,
-      ranking: 99,
+      ranking: 32,
       featured: true,
     },
     {
@@ -276,7 +276,7 @@ const dummyColleges = [
       fees: 3926000,
       placement: 3325000,
       userReviews: 3.8,
-      ranking: 2,
+      ranking: 19,
       featured: false,
     },
     {
@@ -286,7 +286,7 @@ const dummyColleges = [
       fees: 103000,
       placement: 2663000,
       userReviews: 5.6,
-      ranking: 3,
+      ranking: 13,
       featured: false,
     },
     {
@@ -306,7 +306,7 @@ const dummyColleges = [
       fees: 1495000,
       placement: 1907000,
       userReviews: 8.1,
-      ranking: 99,
+      ranking: 18,
       featured: true,
     },
     {
@@ -316,7 +316,7 @@ const dummyColleges = [
       fees: 1950000,
       placement: 1943000,
       userReviews: 8.8,
-      ranking: 2,
+      ranking: 14,
       featured: false,
     },
     {
@@ -326,7 +326,7 @@ const dummyColleges = [
       fees: 1214000,
       placement: 2428000,
       userReviews: 6.6,
-      ranking: 3,
+      ranking: 34,
       featured: false,
     },
     {
@@ -336,7 +336,7 @@ const dummyColleges = [
       fees: 1720000,
       placement: 1869000,
       userReviews: 8.7,
-      ranking: 1,
+      ranking: 33,
       featured: false,
     },
     {
@@ -346,7 +346,7 @@ const dummyColleges = [
       fees: 619900,
       placement: 2083000,
       userReviews: 7.1,
-      ranking: 99,
+      ranking: 17,
       featured: true,
     },
     {
@@ -356,7 +356,7 @@ const dummyColleges = [
       fees: 786000,
       placement: 1927000,
       userReviews: 9.5,
-      ranking: 2,
+      ranking: 35,
       featured: false,
     },
     {
@@ -366,7 +366,7 @@ const dummyColleges = [
       fees: 1730000,
       placement: 1811000,
       userReviews: 8.6,
-      ranking: 3,
+      ranking: 15,
       featured: false,
     },
     {
@@ -376,7 +376,7 @@ const dummyColleges = [
       fees: 1003000,
       placement: 1735000,
       userReviews: 8.7,
-      ranking: 1,
+      ranking: 36,
       featured: false,
     },
     {
@@ -386,7 +386,7 @@ const dummyColleges = [
       fees: 2150000,
       placement: 1953000,
       userReviews: 8.1,
-      ranking: 99,
+      ranking: 37,
       featured: true,
     },
     {
@@ -396,7 +396,7 @@ const dummyColleges = [
       fees: 1890000,
       placement: 1630000,
       userReviews: 8.8,
-      ranking: 2,
+      ranking: 16,
       featured: false,
     },
    

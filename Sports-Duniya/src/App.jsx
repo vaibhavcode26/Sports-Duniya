@@ -77,10 +77,10 @@ function CollegeTable() {
       </div>
 
       {/* Table */}
-      <table className="min-w-full bg-white border border-gray-200 rounded-lg">
+      <table className="min-w-full bg-white border border-gray-200 ">
         <thead>
-          <tr className=" bg-blue-300">
-            <th className="py-6 px-4 border-b text-left ">#</th>
+          <tr className=" bg-blue-400 text-white">
+            <th className="py-6 px-4 border-b text-left ">CD rank</th>
             <th className="py-2 px-4 border-b text-left">Colleges</th>
             <th className="py-2 px-4 border-b text-left">Course Fees</th>
             <th className="py-2 px-4 border-b text-left">Placement</th>
@@ -92,16 +92,17 @@ function CollegeTable() {
           {filteredColleges.slice(0, visibleColleges).map((college, index) => (
             <tr key={college.id} className="hover:bg-gray-50">
               <td className="py-12 px-4 border-b">{index + 1}</td>
-              <td className="py-12 px-4 border-b text-xl text-blue-700 font-bold">
+              <td className="py-12 px-4 border-b text-xl text-blue-500 font-bold flex gap-1">
+                <img src="https://upload.wikimedia.org/wikipedia/sa/6/66/IIT_Delhi_logo.png" className=" h-10 w-10 " alt="" />
                 {college.name}{" "}
                 {college.featured && (
-                  <span className="text-red-500 font-bold ml-2">Featured</span>
+                  <span className="text-white font-bold ml-2 bg bg-red-500 p-1 rounded-lg">Featured</span>
                 )}
               </td>
-              <td className="py-12 px-4 border-b text-xl">₹{college.fees}</td>
-              <td className="py-12 px-4 border-b text-xl">₹{college.placement}</td>
-              <td className="py-12 px-4 border-b text-xl">{college.userReviews} / 10</td>
-              <td className="py-12 px-4 border-b text-xl">
+              <td className="py-12 px-4 border-b text-xl text-blue-500 font-bold">₹{college.fees}</td>
+              <td className="py-12 px-4 border-b text-xl text-blue-500 font-bold">₹{college.placement}</td>
+              <td className="py-12 px-4 border-b text-xl text-yellow-500 font-bold">{college.userReviews} / 10</td>
+              <td className="py-12 px-4 border-b text-xl text-blue-500 font-bold">
                 #{college.ranking} in India
               </td>
             </tr>
@@ -109,10 +110,7 @@ function CollegeTable() {
         </tbody>
       </table>
 
-      {/* Loading more indicator */}
-      <div className="mt-4 text-center text-gray-500" id="loading-more">
-        Loading more...
-      </div>
+      
     </div>
   );
 }
